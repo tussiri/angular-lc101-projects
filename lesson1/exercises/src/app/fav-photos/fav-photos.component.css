@@ -1,11 +1,42 @@
 h3 {
-   color: brown;
+  color: brown;
 }
 
 img {
-
+  width: 100%;
+  height: auto;
 }
 
-.photos {
-   text-align: center;
+.tanzania {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.tahoe {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.photos:hover .overlay {
+  opacity: 1;
 }

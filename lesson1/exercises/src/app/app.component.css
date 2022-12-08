@@ -1,0 +1,9 @@
+.col-3 {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  column-width: 1000%;
+  column-gap: 40px;
+  flex: 40 40 40%;
+  max-width: 50%;
+}

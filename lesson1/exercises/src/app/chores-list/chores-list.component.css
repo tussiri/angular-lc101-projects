@@ -1,0 +1,17 @@
+.chores {
+  font-size: 1.2vw;
+  color: cadetblue;
+}
+h3 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul {
+  font-style: italic;
+  font-size: 1vw;
+}
+img {
+  width: 10%;
+  height: auto;
+}
